@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Inventory App</string>
+
+    <string name="book_list_title">Book List</string>
+
+    <string name="add_a_book">Add a Book</string>
+
+    <string name="edit_book_details">Book Details</string>
+    <string name="sale_button_text">$</string>
+    <string name="delete_all_inventory">Delete All Books</string>
+    <string name="price_entry">Price</string>
+    <string name="title_of_book_edittext">Title of Book</string>
+    <string name="price_hint">$0.00</string>
+    <string name="supplier_info">Supplier Info</string>
+    <string name="supplier_name">Supplier Name</string>
+    <string name="supplier_phone">Supplier Phone</string>
+    <string name="type">Book Type</string>
+    <string name="plus_sign">+</string>
+    <string name="minus_sign">-</string>
+    <string name="quantity">Quantity</string>
+    <string name="quantity_colon">Quantity:</string>
+
+    <!-- Spinner options -->
+    <string name="hardcover_type">Hardcover</string>
+    <string name="paperback_type">Paperback</string>
+    <string name="unknown_type">Unknown</string>
+
+    <string name="add_a_book_title">Add a Book</string>
+    <string name="book_details_title">Book Details</string>
+    <string name="edit_book_title">Edit Book Info</string>
+
+    <string name="error_saving_book">Error saving book</string>
+    <string name="success_saving_book">Book saved successfully</string>
+    <string name="error_updating_book">Error updating book</string>
+    <string name="success_updating_book">Book updated successfully</string>
+    <string name="delete_menu_bookdetails">Delete</string>
+    <string name="save_menu_bookdetails">Save</string>
+    <string name="delete_book_message">Delete this book?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="editor_delete_book_failed">Error deleting book</string>
+    <string name="editor_delete_book_successful">Book Deleted</string>
+    <string name="discard_book">Discard</string>
+    <string name="unsaved_changes_msg">Discard your changes and stop editing?</string>
+    <string name="keep_editing_book">Keep Editing</string>
+    <string name="quantity_hint">0</string>
+    <string name="title_heading">Title</string>
+    <string name="qty_details">Qty:</string>
+    <string name="unable_to_find_details">Unable to Find</string>
+
+    <string name="no_title_toast">Book requires a title</string>
+    <string name="no_price_toast">Book requires a price</string>
+    <string name="no_supplier_name_toast">Supplier name is required</string>
+    <string name="no_supplier_phone_toast">Supplier phone number is required</string>
+    <string name="nothing_left_toast">None are left to sell!</string>
+</resources>

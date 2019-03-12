@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="6dp"
+        app:cardCornerRadius="6dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/book_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@color/color_black"
+            android:textSize="16sp"
+            tools:text="This is my book title" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/quantity_colon"
+                android:textColor="@color/color_black"
+                android:textSize="@dimen/subheading2_text_dimens" />
+
+            <TextView
+                android:id="@+id/quantity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_dimens"
+                android:layout_marginLeft="@dimen/margin_dimens"
+                android:textColor="@color/color_black"
+                android:textSize="@dimen/subheading2_text_dimens"
+                android:textStyle="italic"
+                tools:text="0" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="8dp">
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@id/sale_button"
+            android:layout_toLeftOf="@+id/sale_button"
+            android:textColor="@color/color_black"
+            tools:text="$0.00" />
+
+        <android.support.design.button.MaterialButton
+            android:id="@+id/sale_button"
+            app:cornerRadius="24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="@dimen/margin_dimens"
+            android:layout_marginLeft="@dimen/margin_dimens"
+            android:focusable="false"
+            android:text="@string/sale_button_text"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/heading1_text_dimens" />
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
+
+</RelativeLayout>

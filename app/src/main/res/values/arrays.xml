@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- options for book type Spinner -->
+    <string-array name="array_book_type_options">
+        <item>@string/unknown_type</item>
+        <item>@string/hardcover_type</item>
+        <item>@string/paperback_type</item>
+    </string-array>
+
+</resources>
